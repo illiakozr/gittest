@@ -19,8 +19,8 @@ namespace EmployeesDemo
             Employees.Add(new EmployeeWithHourlyWage(2, "Jaccy", 160));
             Employees.Add(new EmployeeWithHourlyWage(3, "Kane", 145));
             Employees.Add(new EmployeeWithHourlyWage(1, "Sue", 183));
+            Employees.Add(new EmployeeWithHourlyWage(4, "Tom", 150));
 
-            ;
             foreach (Employee emp in Employees.OrderByDescending(e => e.Salary).ThenBy(e => e.Name))
             {
                 Console.WriteLine($"{emp.ID} --- {emp.Name} --- {emp.Salary}");
