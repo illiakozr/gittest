@@ -16,6 +16,7 @@ namespace EmployeesDemo
             Employees.Add(new EmployeeWithFixedPayment(2, "Bob", 3500));
             Employees.Add(new EmployeeWithFixedPayment(3, "Mark", 2400));
             Employees.Add(new EmployeeWithFixedPayment(4, "Peter", 3000));
+            Employees.Add(new EmployeeWithFixedPayment(6, "Olexa", 5500));
             Employees.Add(new EmployeeWithHourlyWage(2, "Jaccy", 160));
             Employees.Add(new EmployeeWithHourlyWage(3, "Kane", 145));
             Employees.Add(new EmployeeWithHourlyWage(1, "Sue", 183));
